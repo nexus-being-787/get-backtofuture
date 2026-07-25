@@ -16,14 +16,6 @@
 
 </div>
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![llama.cpp](https://img.shields.io/badge/LLM-llama.cpp-green)
-![DuckDuckGo](https://img.shields.io/badge/Search-DuckDuckGo-orange)
-![Rich](https://img.shields.io/badge/UI-Rich--CLI-purple)
-![License](https://img.shields.io/badge/Status-Active-success)
-
-</div>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/llama.cpp-4B5563?style=for-the-badge&logo=meta&logoColor=white" alt="llama.cpp" />
