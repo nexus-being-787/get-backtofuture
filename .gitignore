@@ -1,5 +1,7 @@
-.aider*
-venu
+aider*
+venv/
+venv
 Main.java
 Main.class
 test.txt
+*.class
