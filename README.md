@@ -2,13 +2,14 @@
 
 # ⏳ get-backtofuture
 
-### Bring offline GGUF local models back online with real-time duckduckgo search capability.
+### Interactive local AI assistant with live web search, streaming answers, and full conversation history.
 
-Connect your local GGUF models directly to the web, enabling live search results and retrieval without relying on external API limits.
+Bring offline GGUF local models back online using **llama.cpp** and **DuckDuckGo Search**. Ask real-time questions, stream responses token-by-token, and inspect full session analytics directly in your terminal.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![llama.cpp](https://img.shields.io/badge/LLM-llama.cpp-green)
 ![DuckDuckGo](https://img.shields.io/badge/Search-DuckDuckGo-orange)
+![Rich](https://img.shields.io/badge/UI-Rich--CLI-purple)
 ![License](https://img.shields.io/badge/Status-Active-success)
 
 </div>
@@ -24,21 +25,15 @@ Connect your local GGUF models directly to the web, enabling live search results
 
 ## 💡 Key Features
 
-* **🌐 Real-Time Web Search:** Fetch up-to-date web results using DuckDuckGo directly before passing context to your model.
-* **🧠 Local LLM Execution:** Process queries locally using GGUF quantization models via `llama.cpp`.
-* **⚡ Lightweight & Fast:** Minimal dependencies, designed to run directly from your terminal environment.
+* **🌐 Real-Time Web Search Integration:** Live DuckDuckGo search results automatically synthesized into system prompts.
+* **💬 Interactive REPL & Single-Shot Modes:** Use as an ongoing terminal chat session or run quick single-prompt commands.
+* **⚡ Token Streaming & Stats:** Instant token-by-token output along with generation metrics (`tok/s`, latency, token breakdown).
+* **🧠 Conversation Management:** Context trimming prevents RAM/token overflow across long chat sessions.
+* **🎨 Rich Terminal Formatting:** Clean UI themes, spinners, panels, and markdown rendering (with graceful fallback).
 
 ---
 
-## 📦 Requirements
-
-* **Python 3.10+**
-* A local GGUF model (e.g., `Phi-4`, `Qwen2.5`, or `DeepSeek`)
-* `ddgs` (DuckDuckGo Search library)
-
----
-
-## 🚀 Quick Start
+## 📦 Requirements & Installation
 
 ### 1. Clone the Repository
 
